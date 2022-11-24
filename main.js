@@ -28,27 +28,7 @@ document.querySelector("#app").innerHTML = `
     <img src="./assets/logo.svg" alt="Logo NLW">
     </header>
     <main id="cards">
-        ${createCard("20/11", "domingo",
-            createGame("qatar", "16:00", "ecuador")
-        )}
-        ${createCard("21/11", "segunda",
-            createGame("england", "10:00", "iran") +
-            createGame("senegal", "13:00", "netherlands") +
-            createGame("usa", "10:00", "wales")
-
-        )}
-        ${createCard('22/11', 'terça',
-        createGame("argentina", "07:00", "saudi-arabia") +
-        createGame("denmark", "10:00", "tunisia") +
-        createGame("mexico", "13:00", "poland") +
-        createGame("france", "16:00", "australia")
-        )}
-        ${createCard('23/11', 'quarta',
-        createGame("morroco", "07:00", "croatia") +
-        createGame("germany", "10:00", "japan") +
-        createGame("spain", "13:00", "costa-rica") +
-        createGame("belgium", "16:00", "canada")
-        )}
+       
 
         ${createCard('24/11', 'quinta',
         createGame("switzerlands", "07:00", "cameroon") +
