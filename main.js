@@ -41,7 +41,6 @@ function brazilGames() {
 document.querySelector("#app").innerHTML = `
     <header>
     <img src="./assets/logo.svg" alt="Logo NLW">
-    <button onClick="brazilGames()">Jogos do Brasil</button>
 
     </header>
     <main id="cards">
