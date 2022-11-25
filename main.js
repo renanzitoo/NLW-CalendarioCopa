@@ -22,10 +22,27 @@ function createCard(date, day, games) {
     `
 }
 
+function brazilGames() {
+    return
+    `  
+    <h1>Jogos do Brasil</h1>
+    ${createCard ('28/11', 'segunda',
+    createGame("brazil", "13:00", "switzerlands")
+    )}
+    ${createCard ('02/11', 'quinta',
+    createGame("brazil", "16:00", "cameroon")
+    )}
+    `
+    
+
+}
+
 
 document.querySelector("#app").innerHTML = `
     <header>
     <img src="./assets/logo.svg" alt="Logo NLW">
+    <button onClick="brazilGames()">Jogos do Brasil</button>
+
     </header>
     <main id="cards">
 
